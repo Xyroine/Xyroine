@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Programing
 - 📫 How to reach me khalifalmalik@gmail.com
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: still student
+- ⚡ Fun fact: I'm alive
 
 <!---
 Xyroine/Xyroine is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
