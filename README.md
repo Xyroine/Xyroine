@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Xyroine
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning coding
+- 👋 Hi, I’m Malik
+- 👀 I’m interested in Programing
+- 🌱 I’m currently learning Programing
 - 📫 How to reach me khalifalmalik@gmail.com
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: still student
