@@ -1,54 +1,36 @@
+<!-- network-banner.svg — taruh file SVG ini di root repo kamu -->
 <div align="center">
-
-![Network Banner](./network-banner.svg)
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&size=20&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=600&lines=Network+Engineer+%F0%9F%8C%90;Packet+Wrangler+%E2%9A%A1;Always+Learning+%F0%9F%8C%B1;Ping+me+anytime!+%F0%9F%93%A1)](https://github.com/Xyroine)
-
-<br/>
-
-![Status](https://img.shields.io/badge/Status-ONLINE-00ff88?style=for-the-badge&logo=statuspage&logoColor=00ff88&labelColor=0d1117)
-![Ping](https://img.shields.io/badge/PING-0ms-00cfff?style=for-the-badge&logo=cisco&logoColor=00cfff&labelColor=0d1117)
-![Packets](https://img.shields.io/badge/Packets-DELIVERED-a78bfa?style=for-the-badge&logo=wireshark&logoColor=a78bfa&labelColor=0d1117)
-
+  <img src="./network-banner.svg" alt="Khalif Al Malik — Network Engineer" width="100%"/>
 </div>
+
 ---
 
-## 📊 GitHub Stats
-
+<!-- CONNECT WITH ME -->
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Xyroine&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cfff&text_color=c9d1d9&border_radius=8"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xyroine&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9&border_radius=8"/>
+### `$ connect --with malik`
 
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Xyroine&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00ff88&fire=00cfff&currStreakLabel=00ff88&border_radius=8"/>
+[![Email](https://img.shields.io/badge/Gmail-khalifalmalik%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khalifalmalik@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Xyroine-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Xyroine)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Malik%20Yales-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/malik-yales-7a6299291/)
+[![Instagram](https://img.shields.io/badge/Instagram-al.yalss-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/al.yalss)
 
 </div>
 
 ---
 
-## 📡 Activity Graph
+<!-- GITHUB STATS -->
+### `$ git log --stats Xyroine`
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Xyroine&theme=github-compact&bg_color=0d1117&color=00ff88&line=00cfff&point=a78bfa&area=true&hide_border=true)](https://github.com/Xyroine)
+<img src="https://github-readme-stats.vercel.app/api?username=Xyroine&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="150"/>
+<img src="https://streak-stats.demolab.com?user=Xyroine&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="150"/>
 
 </div>
 
 ---
 
-## 📫 Connect With Me
-
 <div align="center">
-
-[![Email](https://img.shields.io/badge/Email-khalifalmalik%40gmail.com-00ff88?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:khalifalmalik@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Xyroine-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Xyroine)
-
-<br/>
-
-![Visitor Count](https://komarev.com/ghpvc/?username=Xyroine&style=for-the-badge&color=00ff88&labelColor=0d1117&label=Packets+Received)
-
+  <sub><code>status: 🟢 ONLINE · uptime: 99.9% · always open to collaborate</code></sub>
 </div>
