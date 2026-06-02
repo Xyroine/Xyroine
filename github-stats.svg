@@ -22,17 +22,15 @@
   <line x1="440" y1="40" x2="440" y2="148" stroke="#21262d" stroke-width="1"/>
   <g class="a1">
     <text class="mono" x="120" y="62" text-anchor="middle" fill="#00ff8866" font-size="9" letter-spacing="2">CONTRIBUTIONS</text>
-    <text class="mono" x="120" y="108" text-anchor="middle" fill="#00ff88" font-size="44" font-weight="700">70</text>
-    <text class="mono" x="120" y="128" text-anchor="middle" fill="#484f58" font-size="9">May 2023 – Present</text>
+    <text class="mono" x="120" y="108" text-anchor="middle" fill="#00ff88" font-size="44" font-weight="700">71</text>
+    <text class="mono" x="120" y="128" text-anchor="middle" fill="#484f58" font-size="9">May 2023 - Present</text>
   </g>
   <g class="a2">
     <circle cx="340" cy="96" r="34" fill="none" stroke="#21262d" stroke-width="3"/>
     <circle cx="340" cy="96" r="34" fill="none" stroke="#fbbf24" stroke-width="3"
       stroke-dasharray="6 214" stroke-linecap="round"
-      transform="rotate(-90 340 96)">
-      <animate attributeName="stroke-dasharray" from="0 214" to="6 214" dur="1s" fill="freeze" begin="0.5s"/>
-    </circle>
-    <text x="340" y="80" text-anchor="middle" font-size="13">🔥</text>
+      transform="rotate(-90 340 96)"/>
+    <text x="340" y="80" text-anchor="middle" font-size="13">&#x1F525;</text>
     <text class="mono" x="340" y="106" text-anchor="middle" fill="#fbbf24" font-size="28" font-weight="700">1</text>
     <text class="mono" x="340" y="62" text-anchor="middle" fill="#fbbf2466" font-size="9" letter-spacing="2">CURRENT STREAK</text>
     <text class="mono" x="340" y="142" text-anchor="middle" fill="#484f58" font-size="9">Jun 2, 2026</text>
@@ -40,9 +38,9 @@
   <g class="a3">
     <text class="mono" x="560" y="62" text-anchor="middle" fill="#a78bfa66" font-size="9" letter-spacing="2">LONGEST STREAK</text>
     <text class="mono" x="560" y="108" text-anchor="middle" fill="#a78bfa" font-size="44" font-weight="700">2</text>
-    <text class="mono" x="560" y="128" text-anchor="middle" fill="#484f58" font-size="9">Nov 21 – 22, 2025</text>
+    <text class="mono" x="560" y="128" text-anchor="middle" fill="#484f58" font-size="9">Nov 21 - 22, 2025</text>
   </g>
   <rect x="28" y="156" width="8" height="8" rx="4" fill="#00ff88" class="dot"/>
-  <text class="mono a4" x="44" y="164" fill="#484f58" font-size="9" letter-spacing="1">STATUS: <tspan fill="#00ff88">ONLINE</tspan>  ·  LAST UPDATED: <tspan fill="#00ff88">2026-06-02 06:22 UTC</tspan></text>
+  <text class="mono a4" x="44" y="164" fill="#484f58" font-size="9" letter-spacing="1">STATUS: <tspan fill="#00ff88">ONLINE</tspan>  ·  LAST UPDATED: <tspan fill="#00ff88">2026-06-02 06:27 UTC</tspan></text>
   <rect y="178" width="680" height="2" fill="#00ff88" opacity="0.7" rx="1"/>
 </svg>
