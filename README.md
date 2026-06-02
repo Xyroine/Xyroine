@@ -13,25 +13,6 @@
 ![Packets](https://img.shields.io/badge/Packets-DELIVERED-a78bfa?style=for-the-badge&logo=wireshark&logoColor=a78bfa&labelColor=0d1117)
 
 </div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![Cisco](https://img.shields.io/badge/Cisco_IOS-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0d1117)
-![MikroTik](https://img.shields.io/badge/MikroTik-293239?style=for-the-badge&logo=mikrotik&logoColor=white&labelColor=0d1117)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0d1117)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0d1117)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0d1117)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-00ff88?style=for-the-badge&logo=cloudflare&logoColor=black&labelColor=0d1117)
-![OSPF](https://img.shields.io/badge/OSPF%2FBGP-a78bfa?style=for-the-badge&logo=icloud&logoColor=white&labelColor=0d1117)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white&labelColor=0d1117)
-
-</div>
-
 ---
 
 ## 📊 GitHub Stats
@@ -59,21 +40,11 @@
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Xyroine&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=6)](https://github.com/Xyroine)
-
-</div>
-
----
-
 ## 📫 Connect With Me
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-Xyroine%40gmail.com-00ff88?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:khalifalmalik@gmail.com)
+[![Email](https://img.shields.io/badge/Email-khalifalmalik%40gmail.com-00ff88?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:khalifalmalik@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Xyroine-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Xyroine)
 
 <br/>
