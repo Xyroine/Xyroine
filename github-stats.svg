@@ -41,6 +41,6 @@
     <text class="mono" x="560" y="128" text-anchor="middle" fill="#484f58" font-size="9">Nov 21 - 22, 2025</text>
   </g>
   <rect x="28" y="156" width="8" height="8" rx="4" fill="#00ff88" class="dot"/>
-  <text class="mono a4" x="44" y="164" fill="#484f58" font-size="9" letter-spacing="1">STATUS: <tspan fill="#00ff88">ONLINE</tspan>  ·  LAST UPDATED: <tspan fill="#00ff88">2026-06-02 06:29 UTC</tspan></text>
+  <text class="mono a4" x="44" y="164" fill="#484f58" font-size="9" letter-spacing="1">STATUS: <tspan fill="#00ff88">ONLINE</tspan>  ·  LAST UPDATED: <tspan fill="#00ff88">2026-06-02 06:34 UTC</tspan></text>
   <rect y="178" width="680" height="2" fill="#00ff88" opacity="0.7" rx="1"/>
 </svg>
