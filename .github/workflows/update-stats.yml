@@ -1,0 +1,38 @@
+name: Update GitHub Stats SVG
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # tiap hari jam 00:00 UTC
+  workflow_dispatch:        # bisa dijalanin manual juga
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run stats updater
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python update-stats.py
+
+      - name: Commit & push updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg
+          git diff --cached --quiet || git commit -m "chore: update github stats [skip ci]"
+          git push
