@@ -1,0 +1,194 @@
+<svg width="860" height="280" viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .node { fill: #00ff88; }
+      .node-blue { fill: #00cfff; }
+      .node-purple { fill: #a78bfa; }
+      .node-yellow { fill: #fbbf24; }
+      .edge { stroke: #00cfff; stroke-width: 0.8; opacity: 0.3; }
+      .label { font-family: 'Space Mono', 'Courier New', monospace; fill: #e6edf3; }
+      .label-green { fill: #00ff88; }
+      .label-blue { fill: #00cfff; }
+      .label-purple { fill: #a78bfa; }
+      .label-muted { fill: #8b949e; }
+      .badge-rect { rx: 4; ry: 4; }
+
+      /* Pulse nodes */
+      @keyframes pulse1 { 0%,100%{r:3;opacity:1} 50%{r:5;opacity:0.5} }
+      @keyframes pulse2 { 0%,100%{r:2.5;opacity:1} 50%{r:4.5;opacity:0.5} }
+      @keyframes pulse3 { 0%,100%{r:2;opacity:1} 50%{r:4;opacity:0.4} }
+
+      /* Packets moving along paths */
+      @keyframes pkt1 { 0%{opacity:0} 5%{opacity:1} 90%{opacity:1} 100%{opacity:0} }
+      @keyframes pkt2 { 0%{opacity:0} 8%{opacity:1} 88%{opacity:1} 100%{opacity:0} }
+
+      /* Glow pulse on title */
+      @keyframes glow { 0%,100%{opacity:1} 50%{opacity:0.7} }
+
+      /* Blink cursor */
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+
+      /* Ping dots */
+      @keyframes pingDot { 0%,100%{opacity:1;r:4} 50%{opacity:0.3;r:2.5} }
+
+      /* Fade in sections */
+      @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+
+      .n1 { animation: pulse1 2s ease-in-out infinite; }
+      .n2 { animation: pulse2 2.4s ease-in-out infinite 0.3s; }
+      .n3 { animation: pulse3 1.8s ease-in-out infinite 0.6s; }
+      .n4 { animation: pulse1 2.2s ease-in-out infinite 1s; }
+      .n5 { animation: pulse2 2s ease-in-out infinite 0.5s; }
+      .n6 { animation: pulse3 2.5s ease-in-out infinite 0.2s; }
+      .n7 { animation: pulse1 1.9s ease-in-out infinite 0.8s; }
+      .n8 { animation: pulse2 2.3s ease-in-out infinite 1.2s; }
+
+      .title-glow { animation: glow 2.5s ease-in-out infinite; }
+      .cursor { animation: blink 1s step-end infinite; }
+
+      .pd1 { animation: pingDot 1.4s ease-in-out infinite; }
+      .pd2 { animation: pingDot 1.4s ease-in-out infinite 0.2s; }
+      .pd3 { animation: pingDot 1.4s ease-in-out infinite 0.4s; }
+
+      .main { animation: fadeIn 1s ease forwards; }
+    </style>
+
+    <!-- Packet 1: horizontal left to right -->
+    <circle id="pkt-g" r="3.5" fill="#00ff88" filter="url(#gf)"/>
+    <circle id="pkt-b" r="3.5" fill="#00cfff" filter="url(#bf)"/>
+    <circle id="pkt-p" r="3.5" fill="#a78bfa" filter="url(#pf)"/>
+
+    <filter id="gf" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bf" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="pf" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="280" fill="#0d1117" rx="10"/>
+
+  <!-- Top gradient bar -->
+  <rect width="860" height="3" fill="#00ff88" rx="1" opacity="0.6"/>
+
+  <!-- Network edges (static, low opacity) -->
+  <g class="edge">
+    <line x1="60" y1="40" x2="180" y2="80"/>
+    <line x1="180" y1="80" x2="300" y2="50"/>
+    <line x1="300" y1="50" x2="420" y2="90"/>
+    <line x1="420" y1="90" x2="580" y2="60"/>
+    <line x1="580" y1="60" x2="720" y2="85"/>
+    <line x1="720" y1="85" x2="820" y2="55"/>
+    <line x1="60" y1="240" x2="160" y2="210"/>
+    <line x1="160" y1="210" x2="280" y2="245"/>
+    <line x1="280" y1="245" x2="400" y2="220"/>
+    <line x1="400" y1="220" x2="540" y2="250"/>
+    <line x1="540" y1="250" x2="680" y2="225"/>
+    <line x1="680" y1="225" x2="800" y2="245"/>
+    <line x1="180" y1="80" x2="160" y2="210"/>
+    <line x1="420" y1="90" x2="400" y2="220"/>
+    <line x1="720" y1="85" x2="680" y2="225"/>
+  </g>
+
+  <!-- Network nodes (bg layer) -->
+  <circle class="n1 node" cx="60" cy="40" r="3"/>
+  <circle class="n2 node-blue" cx="180" cy="80" r="2.5"/>
+  <circle class="n3 node-purple" cx="300" cy="50" r="2"/>
+  <circle class="n4 node" cx="420" cy="90" r="3"/>
+  <circle class="n5 node-yellow" cx="580" cy="60" r="2.5"/>
+  <circle class="n6 node-blue" cx="720" cy="85" r="2"/>
+  <circle class="n7 node" cx="820" cy="55" r="3"/>
+  <circle class="n8 node-purple" cx="160" cy="210" r="2"/>
+  <circle class="n1 node-blue" cx="400" cy="220" r="2.5"/>
+  <circle class="n2 node" cx="680" cy="225" r="2"/>
+
+  <!-- Moving packets -->
+  <circle r="3.5" fill="#00ff88" filter="url(#gf)">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="0s">
+      <mpath>
+        <path d="M60,40 L180,80 L300,50 L420,90 L580,60 L720,85 L820,55"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle r="3.5" fill="#00cfff" filter="url(#bf)">
+    <animateMotion dur="5s" repeatCount="indefinite" begin="1.5s">
+      <mpath>
+        <path d="M820,55 L720,85 L580,60 L420,90 L300,50 L180,80 L60,40"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="5s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+
+  <circle r="3" fill="#a78bfa" filter="url(#pf)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" begin="2.5s">
+      <mpath>
+        <path d="M60,240 L160,210 L280,245 L400,220 L540,250 L680,225 L800,245"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4.5s" repeatCount="indefinite" begin="2.5s"/>
+  </circle>
+
+  <circle r="3" fill="#fbbf24">
+    <animateMotion dur="3.8s" repeatCount="indefinite" begin="0.8s">
+      <mpath>
+        <path d="M180,80 L160,210 L280,245 L400,220"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.88;1" dur="3.8s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+
+  <!-- MAIN CONTENT -->
+  <g class="main">
+
+    <!-- Ping indicator row -->
+    <circle class="pd1 node" cx="310" cy="32" r="4"/>
+    <circle class="pd2 node-blue" cx="328" cy="32" r="4"/>
+    <circle class="pd3 node-purple" cx="346" cy="32" r="4"/>
+    <text x="360" y="37" class="label label-green" font-size="10" letter-spacing="2">PING 0ms — CONNECTED</text>
+
+    <!-- Name / Title -->
+    <text x="430" y="118" class="label label-green title-glow" font-size="32" font-weight="700" text-anchor="middle" filter="url(#textglow)">Hi, I'm Malik 👋</text>
+    <text x="430" y="145" class="label label-muted" font-size="13" text-anchor="middle" letter-spacing="1">Network Engineer · He/Him · Packet Wrangler</text>
+
+    <!-- Cursor blink -->
+    <text x="628" y="118" class="label label-green cursor" font-size="32" font-weight="700">_</text>
+
+    <!-- Divider -->
+    <line x1="60" y1="160" x2="800" y2="160" stroke="#21262d" stroke-width="1"/>
+
+    <!-- traceroute block -->
+    <rect x="55" y="170" width="355" height="95" fill="#161b22" rx="6"/>
+    <text x="70" y="188" class="label label-green" font-size="11" font-weight="700">$ traceroute malik</text>
+    <text x="70" y="204" class="label label-muted" font-size="10">1  👋  Khalifal Malik, Network Engineer   <tspan class="label-green">0.1ms</tspan></text>
+    <text x="70" y="218" class="label label-muted" font-size="10">2  👀  Interested in Programming            <tspan class="label-green">0.3ms</tspan></text>
+    <text x="70" y="232" class="label label-muted" font-size="10">3  🌱  Currently learning Programming        <tspan class="label-green">0.5ms</tspan></text>
+    <text x="70" y="246" class="label label-muted" font-size="10">4  📫  khalifalmalik@gmail.com              <tspan class="label-green">0.7ms</tspan></text>
+    <text x="70" y="258" class="label label-blue" font-size="10">&gt;&gt;&gt; Connection established. All hops reachable!</text>
+
+    <!-- ifconfig block -->
+    <rect x="430" y="170" width="375" height="95" fill="#161b22" rx="6"/>
+    <text x="445" y="188" class="label label-yellow" font-size="11" font-weight="700">$ ifconfig malik</text>
+    <text x="445" y="204" class="label label-muted" font-size="10">malik0: flags=<tspan class="label-green">UP,RUNNING</tspan>  mtu 9000</text>
+    <text x="445" y="218" class="label label-muted" font-size="10">        Role:   <tspan class="label-blue">Network Engineer</tspan></text>
+    <text x="445" y="232" class="label label-muted" font-size="10">        Mode:   <tspan class="label-purple">Full-Duplex Learner</tspan></text>
+    <text x="445" y="246" class="label label-muted" font-size="10">        Speed:  <tspan fill="#fbbf24">Always Improving</tspan></text>
+    <text x="445" y="258" class="label label-muted" font-size="10">        Status: <tspan class="label-green">🟢 ACTIVE</tspan></text>
+
+  </g>
+
+  <!-- Bottom gradient bar -->
+  <rect y="277" width="860" height="3" fill="#00ff88" rx="1" opacity="0.6"/>
+</svg>
